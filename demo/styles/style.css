@@ -1,0 +1,62 @@
+body {
+    overflow:hidden;
+}
+
+.title {
+	margin-top: 20px;
+	font-size: 48px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.right-image {
+	float: right;
+}
+
+.left-image,
+.right-image {
+	position: relative;
+	margin-top: 50px;
+	display: inline-block;
+	max-width: 300px;
+}
+
+
+.left-image img,
+.right-image img {
+  max-width: 300px;
+  max-height: 180px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.next-page {
+	margin-top: 50px;
+	display: block;
+	width: 100px;
+	height: 40px;
+	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+
+.correct-answer img {
+	box-shadow: 0px 0px 25px rgb(12, 71, 8);
+}
+
+.correct-answer::before {
+	background: url("../icons/small-correct.png");
+	height: 64px;
+	width: 64px;
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
